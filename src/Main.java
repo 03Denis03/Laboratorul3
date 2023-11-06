@@ -15,10 +15,13 @@ public class Main {
         System.out.println("Name: " + dog1.name + " " + "Age: " + dog1.age);
         System.out.println("Name: " + dog2.name + " " + "Age: " + dog2.age);*/
 
-        Rectangle rectangle = new Rectangle();
+        /*Rectangle rectangle = new Rectangle();
         rectangle.setWidthAndLength(10, 15);
         int a = rectangle.area(rectangle.getWidth(), rectangle.getLenght());
         int p = rectangle.perimeter(rectangle.getWidth(), rectangle.getLenght());
-        System.out.println("Aria" + " " + a + " " + "Perimeter" +" "+ p);
+        System.out.println("Aria" + " " + a + " " + "Perimeter" +" "+ p);*/
+        Person om = new Person();
+        Student sutd = new Student();
+        Profesor prof = new Profesor();
     }
 }
